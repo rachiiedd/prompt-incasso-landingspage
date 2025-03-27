@@ -21,14 +21,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="overflow-x-hidden">
       <head>
         <link rel="preconnect" href="https://rsms.me/" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </head>
       <body
         className={cn(
-          "min-h-screen bg-background antialiased w-full mx-auto scroll-smooth"
+          "min-h-screen bg-background antialiased w-full mx-auto scroll-smooth overflow-x-hidden"
         )}
       >
         <ThemeProvider

@@ -112,7 +112,7 @@ function HeroCTA() {
 function HeroImage() {
   return (
     <motion.div
-      className="relative mx-auto flex w-full items-center justify-center"
+      className="relative mx-auto flex w-full items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 1.2, duration: 1, ease }}
@@ -122,7 +122,7 @@ function HeroImage() {
         alt="Dashboard Preview"
         width={1920}
         height={1080}
-        className="border rounded-lg shadow-lg max-w-screen-lg mt-16"
+        className="border rounded-lg shadow-lg w-full h-auto max-w-[90vw] mt-16"
       />
     </motion.div>
   );
