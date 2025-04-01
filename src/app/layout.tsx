@@ -25,10 +25,13 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://rsms.me/" />
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500&family=Work+Sans:wght@300&display=swap" rel="stylesheet" />
       </head>
       <body
         className={cn(
-          "min-h-screen bg-background antialiased w-full mx-auto scroll-smooth overflow-x-hidden"
+          "min-h-screen bg-background antialiased w-full mx-auto scroll-smooth overflow-x-hidden font-work-sans"
         )}
       >
         <ThemeProvider
