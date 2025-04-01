@@ -122,7 +122,7 @@ function HeroImage() {
         alt="Dashboard Preview"
         width={1920}
         height={1080}
-        className="border rounded-lg shadow-lg w-full h-auto max-w-[90vw] mt-16"
+        className="border rounded-lg shadow-lg w-full h-auto max-w-[90vw] lg:max-w-[1200px] mt-16"
       />
     </motion.div>
   );
